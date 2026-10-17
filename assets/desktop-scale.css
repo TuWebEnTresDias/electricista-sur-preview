@@ -1,0 +1,133 @@
+@media (min-width: 1100px) {
+  body {
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 760px;
+    padding-top: 125px;
+    padding-bottom: 190px;
+  }
+
+  .hero-copy {
+    width: 62%;
+    max-width: 760px;
+  }
+
+  .hero .eyebrow {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: 72px;
+    line-height: 91px;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+  }
+
+  .hero-lead {
+    max-width: 620px;
+    font-size: 24px;
+    line-height: 1.5;
+    padding-left: 26px;
+    margin-bottom: 32px;
+  }
+
+  .hero-photo {
+    width: min(430px, 36vw);
+    height: min(430px, 36vw);
+    right: 12%;
+    top: 40%;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 13px 26px;
+  }
+
+  .intro-card .eyebrow {
+    font-size: 20px;
+  }
+
+  .intro-card h2 {
+    font-size: 31px;
+    line-height: 1.2;
+  }
+
+  .intro-card p:not(.eyebrow) {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .stat {
+    grid-template-columns: 56px 1fr;
+    column-gap: 16px;
+  }
+
+  .stat img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .stat strong {
+    font-size: 37px;
+  }
+
+  .stat span {
+    font-size: 15px;
+  }
+
+  .section-kicker {
+    font-size: 31px;
+    margin-bottom: 12px;
+  }
+
+  .services h2,
+  .work h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .section-intro {
+    max-width: 850px;
+    font-size: 17px;
+    line-height: 1.65;
+    margin-bottom: 46px;
+  }
+
+  .service {
+    min-height: 250px;
+    padding: 28px 24px 32px;
+  }
+
+  .service img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .service h3 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 14px 0 10px;
+  }
+
+  .service p {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  .quote {
+    padding: 30px 24px 24px;
+  }
+
+  .quote p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .quote span {
+    font-size: 15px;
+  }
+}
